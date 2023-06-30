@@ -32,6 +32,8 @@ header{
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 500;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
 }
 .nav a:hover{
     color:blue
