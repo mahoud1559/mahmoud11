@@ -30,14 +30,15 @@ header{
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .nav a:hover{
     color:blue
 
 }
 section{
-    padding:200px 160px;
+    
+    padding:200px 50px;
 }
 .main{
     width: 100%;
