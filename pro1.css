@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+*{
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    
+}
+.logo{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: rgb(67, 67, 153);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav a{
+    font-size:1.1em;
+    text-decoration: none;
+    color: rgb(67, 67, 153);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.nav a:hover{
+    color:blue
+
+}
+section{
+    padding:200px 160px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(67.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.h1{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.h4{
+    display: inline-block;
+    margin-top:5px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-size:2.4em ;
+    font-style: italic;
+
+}
+.but{
+    display: inline-block;
+    padding: .9375em;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    transition: 0.7s;
+    color: rgb(249, 253, 255);
+    background-color: rgb(0, 135, 253);
+}
+.but:hover{
+    background-color: blue;
+    transform: scale( 1.1);
+    align-items: left;
+
+
+}
+.h3{
+    display: inline-block;
+    margin: 10px;
+    color: rgb(1, 133, 209);
+    font-size:2.4em ;
+    font-style: normal;
+
+}
+
+.si a{
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: -150px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 70px;
+    transition: 0.7s;
+    align-items: center;
+
+}
+.card:hover{
+    transform: scale( 1.1);
+}
+
+.icon{
+    align-items: top;
+    color: rgb(42, 29, 236);
+    font-size: 5em;
+    text-align: center;
+
+}
+
+.inf{
+    text-align: center;
+}
+.inf h3{
+    color: blue;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin: 20px;
+}
+.fot{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10em;
+    background-color: rgb(107, 107, 107);
+}
+.tel{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-top:3em;
+    text-decoration: underline;
+
+}
+.shape{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-top:3em;
+    margin-right: 15px;
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+
+
