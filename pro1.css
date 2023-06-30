@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 0.5em 5em;
     
 }
 .logo{
@@ -23,6 +23,8 @@ header{
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 700;
+    padding-left: -1em;
+    padding-right: 5em;
 }
 .nav a{
     font-size:1.1em;
@@ -30,7 +32,6 @@ header{
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 500;
-    padding-left: 50px;
 }
 .nav a:hover{
     color:blue
@@ -118,9 +119,9 @@ section{
 }
 .card{
     background-color: rgb(255, 255, 255);
-    width: 21.25em;
+    width: 200px;
     box-shadow: 0 5px 30px rgba(1 1 1 / 15%);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     margin: 70px;
     transition: 0.7s;
