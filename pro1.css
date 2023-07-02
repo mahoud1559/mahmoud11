@@ -219,16 +219,11 @@ logo mahmoud
     
     
 
-.logo{
-    font-size: 1.8em;
-    text-decoration: none;
-    color: rgb(67, 67, 153);
-    text-transform: uppercase;
-    font-weight: 700;
-    padding-left: -1em;
-    padding-right: 5em;
-}
+
+
 .nav a{
+  position: relative;
+  flex-wrap: wrap;
     font-size:1.1em;
     text-decoration: none;
     color: rgb(67, 67, 153);
@@ -237,8 +232,26 @@ logo mahmoud
     padding-left: 11.5em;
     padding-right: 1.5em;
     padding-bottom: 2em;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
 
-}
+
 .nav a:hover{
     color:blue
 
