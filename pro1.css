@@ -65,11 +65,11 @@ logo mahmoud
   }
   
   .circle:nth-of-type(1) {
-    background: rgba(254, 83, 186, 0.636);
+    background: rgba(3, 175, 243, 0.836);
   }
   
   .circle:nth-of-type(2) {
-    background: rgba(142, 81, 234, 0.704);
+    background: rgba(240, 12, 229, 0.521);
   }
   
   .btn:hover #container-stars {
@@ -82,14 +82,14 @@ logo mahmoud
   }
   
   .btn:active {
-    border: double 4px #FE53BB;
+    border: double 4px #015aad;
     background-origin: border-box;
     background-clip: content-box, border-box;
     animation: none;
   }
   
   .btn:active .circle {
-    background: #FE53BB;
+    background: #0087f5;
   }
   
   #stars {
@@ -208,7 +208,7 @@ logo mahmoud
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 500;
-    padding-left: 13.5em;
+    padding-left: 10.5em;
     padding-right: 2.5em;
     padding-bottom: 1em;
 }
