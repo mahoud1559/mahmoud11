@@ -10,15 +10,16 @@
 /*
 logo mahmoud
 */
+
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 13rem;
-    height: 3rem;
+    width: 13.5rem;
+    height: 3.5rem;
     background-size: 300% 300%;
     backdrop-filter: blur(1rem);
-    border-radius: 5rem;
+    border-radius: 4rem;
     transition: 0.5s;
     animation: gradient_301 5s ease infinite;
     border: double 4px transparent;
@@ -39,7 +40,7 @@ logo mahmoud
   }
   
   strong {
-    z-index: 2;
+    z-index: 5;
     font-family: 'Belanosima', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
@@ -189,7 +190,7 @@ logo mahmoud
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 5em;
+    padding: 0.5em 2em;
     
 }
 .logo{
@@ -207,7 +208,8 @@ logo mahmoud
     color: rgb(67, 67, 153);
     text-transform: uppercase;
     font-weight: 500;
-    padding-right: 1.5em;
+    padding-left: 13.5em;
+    padding-right: 2.5em;
     padding-bottom: 1em;
 }
 .nav a:hover{
