@@ -236,10 +236,12 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(67.png) no-repeat;
+    background-image:linear-gradient(rgba(0, 162, 255, 0.123),rgba(0, 47, 255, 0.089)),url(67.png);
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 .h1{
     color: aliceblue;
