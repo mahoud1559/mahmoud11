@@ -25,6 +25,7 @@ logo mahmoud
     background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
     background-origin: border-box;
     background-clip: content-box, border-box;
+    margin-left: 1rem;
   }
   
   #container-stars {
@@ -193,9 +194,6 @@ logo mahmoud
   }
     /* Small */
     
-
- 
-
 /* End Global Rules */
     
     
@@ -205,22 +203,29 @@ logo mahmoud
 .nav a{
     font-size:1.1em;
     text-decoration: none;
-    color: rgb(67, 67, 153);
+    color: rgb(7, 108, 224);
     text-transform: uppercase;
     font-weight: 500;
-    padding-left: 18.5dvh;
-    padding-right: 1.5em;
+    margin-right: 2rem;
+    padding-left: 13.5rem;
     padding-bottom: 2em;
     text-align: center;
+   
+
+  
 
   
   }
 
 
 .nav a:hover{
-    color:blue
+    color:blue;
+    
+    
 
 }
+
+
 section{
     
     padding:200px 50px;
@@ -272,6 +277,7 @@ section{
 
 
 }
+
 .h3{
     display: inline-block;
     margin: 10px;
