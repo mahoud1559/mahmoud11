@@ -201,23 +201,20 @@ logo mahmoud
     
     
 
-
+.nav{
+  padding-left: 15.5vh;
+}
 
 .nav a{
     font-size:1.1em;
     text-decoration: none;
-    color: rgb(7, 108, 224);
+    color: #076ce0;
     text-transform: uppercase;
     font-weight: 500;
     margin-right: 2rem;
-    padding-left: 15.5vh;
-    padding-bottom: 2em;
     text-align: center;
    box-shadow: #212121;
-
-  
-
-  
+   background-color: none;
   }
 
 
@@ -240,7 +237,6 @@ section{
     display: flex;
     align-items: center;
     background-image:linear-gradient(rgba(0, 162, 255, 0.123),rgba(0, 47, 255, 0.089)),url(67.png);
-    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -296,7 +292,7 @@ section{
     color: aliceblue;
     font-size: 1.7em;
     padding-top: 80px;
-    padding-left: 50px;
+    padding-left: 30px;
     text-align: center;
 }
 .title{
