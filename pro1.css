@@ -183,7 +183,6 @@ logo mahmoud
 
 /*  end logo mahmoud*/
   header{
-    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 70px;
     position: fixed;
@@ -191,8 +190,11 @@ logo mahmoud
     justify-content: space-between;
     align-items: center;
     padding-top: 5px;
-  }
-    /* Small */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+    
+      }
+          /* Small */
     
 /* End Global Rules */
     
