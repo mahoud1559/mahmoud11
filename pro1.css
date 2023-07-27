@@ -184,7 +184,7 @@ logo mahmoud
 /*  end logo mahmoud*/
   header{
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -192,6 +192,7 @@ logo mahmoud
     padding-top: 5px;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+    z-index: 2000;
     
       }
           /* Small */
@@ -221,7 +222,7 @@ logo mahmoud
 
 
 .nav a:hover{
-    color:blue;
+    color:rgb(255, 255, 255);
     
     
 
