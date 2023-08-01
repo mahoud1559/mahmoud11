@@ -291,9 +291,9 @@ section{
 .si a{
     color: aliceblue;
     font-size: 1.7em;
-    margin-top:30px;
-    padding-top: 50px;
-    padding-left: 30px;
+    margin-top:50px;
+    padding-top: 0px;
+    margin-left: 30px;
     text-align: center;
 }
 .title{
