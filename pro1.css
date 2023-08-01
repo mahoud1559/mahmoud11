@@ -291,7 +291,8 @@ section{
 .si a{
     color: aliceblue;
     font-size: 1.7em;
-    padding-top: 80px;
+    margin-top:30px;
+    padding-top: 50px;
     padding-left: 30px;
     text-align: center;
 }
