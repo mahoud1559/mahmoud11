@@ -1,194 +1,661 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bondi.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mahmoud Ahmed</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/hamburgers.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-</head>
-<body>
-
-      <nav id="nav" class="navbar navbar-expand-md  sticky-top border-bottom ">
-        <div class="container-fluid me-3 ">
-
-           <button class="btn" type="button">
-            <strong>mahmoud</strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
+  <body>
+    <div class="spinner">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+    <header id="home" class="block">
+      <div class="container">
+        <div class="content text-center text-light">
+          <h3>Hello I'm <span class="main-yellow">Mahmoud Ahmed</span></h3>
+          <h1>I'm a Front-end developer</h1>
+          <a href="#contact" class="btn main-button mt-3" role="button"
+            >contact me</a
+          >
+        </div>
+      </div>
+      <nav class="main-nav navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler d-lg-none hamburger hamburger--collapse"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
           </button>
-
-
-          <button  class="navbar-toggler" type="button" 
-           data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-           aria-controls="navbarNavDropdown" aria-expanded="false"
-           aria-label="Toggle navigation">
-           
-           <div id="menuToggle">
-            <input id="checkbox" type="checkbox">
-            <label class="toggle" for="checkbox">
-              <div class="bar bar--top"></div>
-              <div class="bar bar--middle"></div>
-              <div class="bar bar--bottom"></div>
-            </label>
-
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link h5" href="#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h5" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h5" href="#portfolio">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h5" href="#contact">contact</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+    </header>
+    <section class="about py-5 block" id="about">
+      <div class="container">
+        <div class="section-heading text-center pt-5">
+          <h3 class="h1 main-dark wow slideInLeft">
+            About
+          </h3>
+          <div class="divider mb-5 wow slideInLeft"></div>
+        </div>
+        <div class="row py-5">
+          <div class="col-md-3">
+            <div class="box wow flipInY">
+              <div class="text-center icon">
+                <i class="fas fa-code fa-3x"></i>
+              </div>
+              <div class="text-center icon-heading text-light">
+                <h5>
+                  Clean code
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box wow flipInY" style="animation-delay:.2s;">
+              <div class="text-center icon">
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-tablet-alt fa-2x"></i>
+                <i class="fas fa-desktop fa-3x"></i>
+              </div>
+              <div class="text-center icon-heading text-light">
+                <h5>Responsive design</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box wow flipInY" style="animation-delay:.4s;">
+              <div class="text-center icon">
+                <i class="fab fa-searchengin fa-3x"></i>
+              </div>
+              <div class="text-center icon-heading text-light">
+                <h5>SEO friendly</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box wow flipInY" style="animation-delay:.6s;">
+              <div class="text-center icon">
+                <i class="fas fa-rocket fa-3x"></i>
+              </div>
+              <div class="text-center icon-heading text-light">
+                <h5>
+                  Dynamic
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 text-center align-items-center d-flex wow slideInLeft"
+          >
+            <div class="about-me-container">
+              <div class="my-img">
+                <img src="imgs/my-img.jpg" class="img-fluid" alt="my image" />
+              </div>
+              <div class="about-me">
+                <div>
+                  <h6 class="h4 font-weight-bold ">
+                    I'm Mahmoud Ahmed.
+                  </h6>
+                  <p class="text-muted">
+                    i'm a frontend web developer, I love to create and build
+                    websites which are mobile-first ready, fully responsive,
+                    minimal, SEO friendly and at the same time attractive and
+                    user-friendly for individuals, startups, businesses etc.
+                  </p>
+                  <div class="my-resume">
+                    <a
+                      class="btn main-button"
+                      target="_blank"
+                      href="https://drive.google.com/file/d/174Qe00JGI1eIzCkRif124lNKO5l3FHEZ/view?usp=drive_link"
+                      >My resume</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 skills wow slideInRight">
+            <!-- Skill Bars -->
 
-            
-          </button>
+            <div class="progress skill-bar">
+              <span class="progress-name">HTML5</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="95%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                95%
+              </div>
+            </div>
 
           
-          <div class="collapse navbar-collapse  " id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto ms-5  " >
-              
-                <li class="nav-item me-3 me-lg-5 ">
-                  <a class="text-decoration-none" href="#home">Home</a>  
-                 </li>
-    
-                <li class="nav-item me-3 me-lg-5">
-                  <a class="text-decoration-none " href=  "#services">services</a>
-                </li>
-    
-                <li class="nav-item me-3 me-lg-5">
-                  <a class="text-decoration-none" href="https://api.whatsapp.com/send/?phone=201021702322" target="_blank">Contact</a> 
-                </li>
-                
-             
-                    
-                </ul>
-                
-      </nav>
+            <div class="progress skill-bar">
+              <span class="progress-name">javaScript</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="85%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                85%
+              </div>
+            </div>
 
+          
 
+            <div class="progress skill-bar">
+              <span class="progress-name">Bootstrap</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="95%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                95%
+              </div>
+            </div>
 
+            <div class="progress skill-bar">
+              <span class="progress-name">Sass</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="90%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                90%
+              </div>
+            </div>
 
-    
-
-      <section id="home" class="main">
-        <div>
-
-            <h2 class="h1">hello ,I am mahmoud ahmed <br> <span class="h3">graphic designer</span>
-            </h2>
+         
+            <div class="progress skill-bar">
+              <span class="progress-name">Git&github</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="90%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                90%
+              </div>
+            </div>
+            <div class="progress skill-bar">
+              <span class="progress-name">JSON</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="80%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
             
-            <h3 class="h4">
-                I do designs
-            </h3>
-
-            <br>
-            <a href="https://www.behance.net/01021702327f22" target="_blank" class="but">view my work</a>
-            <br>
-            <div class="si">
-            <a href="https://www.facebook.com/7oda1559/" target="_blank"><i class="fa-brands fa-facebook fa-beat"></i></a>
-            <a href="https://www.instagram.com/7oda1559/" target="_blank"><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <div class="progress skill-bar">
+              <span class="progress-name">React</span>
+              <div
+                class="progress-bar progress-bar-primary text-center font-weight-bold main-yellow"
+                role="progressbar"
+                data-width="90%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                90%
+              </div>
             </div>
+           
+          </div>
         </div>
-
+      </div>
     </section>
-
-    <section class="cards" id="ser">
-        <h2 id="services" class="title">services</h2>
-        <div class="con">
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-pen-nib fa-bounce"></i>
-
+    <section class="portfolio py-5 block" id="portfolio">
+      <div class="container">
+        <div class="section-heading text-center pt-3">
+          <h3 class="h1 main-dark wow slideInRight">
+            PROJECTS
+          </h3>
+          <div class="divider mb-5 wow slideInRight"></div>
+        </div>
+        <div class="mixitup-container">
+          <div class="tabs-container wow fadeInDown">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <button
+                  type="button"
+                  data-filter="all"
+                  class="btn main-button1"
+                  data-mixitup-control
+                >
+                  All
+                </button>
+              </li>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                data-filter=".angular"
+                class="btn main-button1"
+                data-mixitup-control
+              >
+                Angular
+              </button>
+            </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  data-filter=".html-css"
+                  class="btn main-button1"
+                  data-mixitup-control
+                >
+                  HTML&CSS
+                </button>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  data-filter=".bootstrap"
+                  class="btn main-button1"
+                  data-mixitup-control
+                >
+                  Bootstrap
+                </button>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  data-filter=".javaScript"
+                  class="btn main-button1"
+                  data-mixitup-control
+                >
+                  javaScript
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="sorting-container py-5">
+            <div class="row">
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix angular wow slideInUp"
+              >
+                <div class="box">
+                  <div class="box-img img-medicall">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>Angular & NG-ZORRRO</h5>
+                          <p>My last angular project</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://mcall.sa"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="inf">
-                    <h3>graphic design</h3>
-                    <p> social media designer</p>
+              </div>
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix angular wow slideInUp"
+              >
+                <div class="box">
+                  <div class="box-img img-hail">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>Angular & MDB</h5>
+                          <p>Angular project for cement company</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://hailcement.com/ar"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix html-css bootstrap wow slideInUp"
+              >
+                <div class="box">
+                  <div class="box-img img-mada">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>HTML & CSS</h5>
+                          <p>Multi pages project</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/mada-ar/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix html-css wow slideInUp"
+              >
+                <div class="box">
+                  <div class="box-img img-engaged">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>HTML & CSS</h5>
+                          <p>my first website with html and css only</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/html-css-only/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix bootstrap wow slideInUp"
+                style="animation-delay:.2s;"
+              >
+                <div class="box">
+                  <div class="box-img img-fokir">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>Bootstrap & jQuery</h5>
+                          <p>Responsive bootstrap design</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/fokir-website/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix javaScript bootstrap wow slideInUp"
+                style="animation-delay:.6s;"
+              >
+                <div class="box">
+                  <div class="box-img img-phonebook">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>vanilla javaScript</h5>
+                          <p>phonebook with vanilla javaScript</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/phone-book/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix html-css javaScript bootstrap wow slideInUp"
+                style="animation-delay:.8s;"
+              >
+                <div class="box">
+                  <div class="box-img img-sitesbookmarker">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>site bookmarker</h5>
+                          <p>site bookmarker with vanilla javascript</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/sites-bookmarker/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-xl-4 col-lg-6 mix javaScript bootstrap wow slideInUp"
+                style="animation-delay:1s;"
+              >
+                <div class="box">
+                  <div class="box-img img-exam">
+                    <div class="overlay"></div>
+                    <div
+                      class="box-hover text-center text-light d-flex align-items-center justify-content-center"
+                    >
+                      <div class="content">
+                        <div class="content-text">
+                          <h5>Exam in 6 hours</h5>
+                          <p>my route academy course exam in 6 hours</p>
+                        </div>
+                        <a
+                          class="btn main-button"
+                          href="https://ahmedhashem94.github.io/Ahmed-Hashem-Exam_2/"
+                          target="_blank"
+                          >visit site</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
-        <div class="con">
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-earth-americas fa-bounce"></i>
-                </div>
-
-                <div class="inf">
-                    <h3>design web</h3>
-                    <p> I do web designs</p>
-
-                </div>
-            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact block" id="contact">
+      <div class="ss-style-roundedsplit"></div>
+      <div class="container">
+        <div class="section-heading text-light text-center">
+          <h3 class="h1 wow slideInLeft">
+            CONTACT
+          </h3>
+          <div class="divider mb-5 wow slideInLeft"></div>
+        </div>
+        <div class="row">
+          <p
+            class="text-center main-yellow w-100 pb-4 wow slideInLeft"
+            style="animation-delay:.4s"
+          >
+            Have a question or want to work together?
+          </p>
+          <div class="col-md-6 offset-md-3">
+            <form
+              class="pb-5 wow bounceIn"
+              style="animation-delay:.5s"
+              id="myForm"
+              novalidate
+            >
+              <div class="form-group">
+                <input
+                  onfocusout="validateName();"
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Name"
+                  aria-describedby="helpId"
+                />
+                <div class="text-helper text-danger"></div>
+              </div>
+              <div class="form-group">
+                <input
+                  onfocusout="validateEmail();"
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  aria-describedby="emailHelpId"
+                  placeholder="Enter Email"
+                />
+                <div class="text-helper text-danger"></div>
+              </div>
+              <div class="form-group">
+                <textarea
+                  onfocusout="validateMessage();"
+                  class="form-control"
+                  name="message"
+                  id="message"
+                  rows="6"
+                  placeholder="Your Message"
+                  type="text"
+                ></textarea>
+                <div class="text-helper text-danger"></div>
+              </div>
+              <button type="submit" class="btn main-button float-right">
+                Send
+              </button>
+              <div class="clearfix"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5">
+      <div class="scroll-top text-center d-flex justify-content-center">
+        <div class="icon">
+          <i class="fas fa-angle-up fa-2x"></i>
+        </div>
+      </div>
+      <div class="social-icons text-center py-5 d-flex justify-content-center">
+        <div class="icon">
+          <a target="_blank" href="https://www.facebook.com/7oda1559/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/mahmoud-ahmed-40a43120a"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=201021702322" 
+            ><i class="fa-brands fa-whatsapp"></i></a>
         </div>
         
-
-    </section>
-
-
-    <footer class="fot">
-        <div class="all">
-        
-        <div class="shape">
-            <i class="fa-solid fa-phone fa-flip"></i>
-        </div>
-
-        <div class="tel">
-            tel:01021702322
-        </div>
-    </div>
-
-
-    
-    
-
+      </div>
+      <div class="copy-right text-center">
+        <p class="text-muted">
+          Mahmoud ahmed <span class="main-yellow">&copy; 2023</span>
+        </p>
+      </div>
     </footer>
-    
-    <button id="btn2">  <i class="fa-solid fa-circle-up fa-beat-fade fa-lg" style="color: #256be4;"></i></button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  <script src="js/bootstrap.bundle.min.js"> </script>
-   <script src="js/all.min.js"></script>
-   <script src="js/pro1.js"> </script>
-</body>
-</html4
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/b3a3039b3d.js" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
