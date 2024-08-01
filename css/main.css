@@ -108,7 +108,7 @@ html {
 }
 .mixitup-control-active {
   background-color: #212432;
-  
+
   color: #056cf3;
 }
 .divider {
@@ -158,19 +158,16 @@ html {
 header {
   background-color: #000000af;
   backdrop-filter: blur(70px);
-  
-  
 }
 
-.about .box{
+.about .box {
   background-color: #ffffff1f;
   backdrop-filter: blur(70px);
   border-radius: 40px !important;
-  border:  1px solid rgb(255, 255, 255) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
   box-shadow: 5px 5px #98999928;
-
 }
-.text-center h5{
+.text-center h5 {
   color: #056cf3;
   font-weight: bold;
 }
@@ -341,8 +338,8 @@ header .main-nav ul li.active a {
   -webkit-transform: translateY(200px);
   transform: translateY(200px);
 }
-.portfolio .box .img-engaged {
-  background: no-repeat 100%/100% url(../imgs/Engage-Business-2.png);
+.portfolio .box .img-medicall {
+  background: no-repeat  100%/150% url(../imgs/system-napleon.jpg);
 }
 .portfolio .box .img-fokir {
   background: no-repeat 100%/100% url(../imgs/fokir.png);
@@ -352,6 +349,9 @@ header .main-nav ul li.active a {
 }
 .portfolio .box .img-sitesbookmarker {
   background: no-repeat 100%/100% url(../imgs/site-bookmarker.png);
+}
+.portfolio .box .img-engaged {
+  background: no-repeat 100%/100% url(../imgs/system-napleon.jpg);
 }
 .portfolio .box .img-countdown {
   background: no-repeat 100%/100% url(../imgs/change-laung.jpg);
@@ -373,9 +373,6 @@ header .main-nav ul li.active a {
 }
 .portfolio .box .img-hail {
   background: no-repeat 100%/100% url(../imgs/change-laung.jpg);
-}
-.portfolio .box .img-medicall {
-  background: no-repeat 100%/100% url(../imgs/mcall.png);
 }
 .ss-style-doublediagonal {
   position: relative;
