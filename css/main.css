@@ -356,9 +356,6 @@ header .main-nav ul li.active a {
 .portfolio .box .img-countdown {
   background: no-repeat 100%/100% url(../imgs/change-laung.jpg);
 }
-.portfolio .box .img-phonebook {
-  background: no-repeat 100%/100% url(../imgs/phonebook.png);
-}
 .portfolio .box .img-exam {
   background: no-repeat 100%/100% url(../imgs/exam2.png);
 }
@@ -367,6 +364,9 @@ header .main-nav ul li.active a {
 }
 .portfolio .box .img-budgety {
   background: no-repeat 100%/100% url(../imgs/Budgety.png);
+}
+.portfolio .box .img-phonebook {
+  background: no-repeat 120%/120% url(../imgs/photo-editor.jpg);
 }
 .portfolio .box .img-forkify {
   background: no-repeat 100%/100% url(../imgs/forkify.png);
